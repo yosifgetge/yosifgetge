@@ -1,0 +1,13 @@
+
+
+
+
+{% for xs in pro %}
+<p>
+   Name : {{xs.name}}<br>
+   Price : {{xs.price}} $ <br>
+   Active : {{xs.Active}}
+</p>
+<img  src="{{xs.image.url}}" width="150" height="100" ><hr>
+{%endfor%}
+

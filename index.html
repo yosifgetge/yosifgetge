@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  {% load bootstrap5 %}
+  {% bootstrap_css %}
+  {% bootstrap_javascript %}
+</head>
+<body>
+
+<div>
+
+    
+<form class="form-group" method="POST">
+    {% csrf_token %}
+
+    <input class="form-control col-2 bg-light  "  type="text" name="username" placeholder="Enter Name"  >
+    <br>
+    <input class="form-control col-2 mt-4  bg-light  "  type="password" name="password" placeholder="Enter Your password">
+    <br>
+    <input class="btn btn-dark col-0 "  type="submit" value="submit" >
+</form>
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
